@@ -10,6 +10,7 @@ const dataPromise = d3.json(url);
 d3.json(url).then(function(data){
     console.log(data);
 });
+
 // Set up variables and get data from JSON for charts 
 var samples;
 var meta_data;
